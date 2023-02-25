@@ -5,7 +5,7 @@ const { prodConfig } = require("./webpack.prod.js");
 const commonConfig = require("./webpack.common.js");
 module.exports = (envVars) => {
   const { env } = envVars; // can be dev or prod
-  console.log(env, prodConfig, devConfig);
+  console.log(env, env === "prod" ? prodConfig : devConfig);
   const finalConfig = merge(
     commonConfig,
     env === "prod" ? prodConfig : devConfig
