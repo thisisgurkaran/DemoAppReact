@@ -6,7 +6,8 @@
   "scripts": {
     "build:dev": "webpack --config webpack/webpack.config.js --env env=dev",
     "build:prod": "webpack --config webpack/webpack.config.js --env env=prod",
-    "start": "webpack server --config webpack/webpack.config.js --env env=dev --open"
+    "start": "webpack server --config webpack/webpack.config.js --env env=dev --open",
+    "lint": ""
   },
   "repository": {
     "type": "git",
