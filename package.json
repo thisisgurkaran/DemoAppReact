@@ -1,0 +1,20 @@
+{
+  "name": "demoappreact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisisgurkaran/DemoAppReact.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thisisgurkaran/DemoAppReact/issues"
+  },
+  "homepage": "https://github.com/thisisgurkaran/DemoAppReact#readme"
+}
