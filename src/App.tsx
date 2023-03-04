@@ -6,6 +6,7 @@ const App = () => {
   const a = 0;
   return (
     <div>
+      Applyign changes to master and Azure
       <Counter />
     </div>
   );
